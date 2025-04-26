@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(19, 6, 19);
+  color: white;
+  overflow: hidden;
+}
+/* .css-13jyvxb-control{
+  width: 100% !important;
+} */
+.css-b62m3t-container{
+  width: 70%;
+}
+.btnNormal{
+  padding:10px;
+  color: white;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  
+}
+/* .css-1fue867-control{
+  width: 80%;
+} */
+ p > strong{
+font-size: 20px !important;
+color: white;
+ }
+ p{
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  color: gray;
+ }
+ ul li{
+  color: gray;
+  list-style: circle !important;
+ }
+ pre{
+  background-color: #121214 !important;
+  padding: 10px;
+ }
