@@ -112,9 +112,9 @@ Code:${code}, do not display the message as okay ill act as a senior code review
           <div className="tabs w-full  mt-5! px-5! mb-3! flex items-center gap-3 ">
             <Select
               value={selectedOption}
-              onChange={(e) => {
-                setselectedOption(e.value)
-                console.log(selectedOption);
+              onChange={(options) => {
+                setselectedOption(options)
+                console.log(options);
               }}
               styles={customStyles}
 
